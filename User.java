@@ -12,6 +12,10 @@ public class User {
     **stores list of Friends
     */
     private LinkedList<String> friendEmail = new LinkedList<String>();
+    /*
+    **stores list of shared Items
+    */
+    private LinkedList<Item> sharedItems = new LinkedList<Item>();
 
     ///////////////////////////Constructor//////////////////////////////////////
     public USER(String user,String email,String password){
