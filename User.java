@@ -37,6 +37,9 @@ public class User {
     public void addToItemList(Item item) {
         items.add(item);
     }
+    public void addSharedItem(Item item) {
+        sharedItems.add(item);
+    }
     public void addFriend(String email) {
         items.add(email);
     }
