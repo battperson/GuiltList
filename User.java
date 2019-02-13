@@ -31,6 +31,7 @@ public class User {
     public String getPassword() { return password; }
     public LinkedList<Item> getItems() { return items; }
     public LinkedList<String> getFriends() { return friends; }
+    public LinkedList<String> getSharedItem() { return sharedItems; }
     //public LinkedList<Customer> getCustomers() { return customers; }
 
     public void addToItemList(Item item) {
