@@ -8,6 +8,10 @@ public class User {
     **and shared with User
     */
     private LinkedList<Item> items = new LinkedList<Item>();
+    /*
+    **stores list of Friends
+    */
+    private LinkedList<String> friendEmail = new LinkedList<String>();
 
     ///////////////////////////Constructor//////////////////////////////////////
     public USER(String user,String email,String password){
@@ -22,6 +26,7 @@ public class User {
     public String getEmail() { return email; }
     public String getPassword() { return password; }
     public LinkedList<Item> getItems() { return items; }
+    public LinkedList<String> getFriends() { return friends; }
     //public LinkedList<Customer> getCustomers() { return customers; }
 
     public void addToItemList(Item item) {
