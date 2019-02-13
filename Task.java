@@ -1,0 +1,28 @@
+public class Task {
+  ///////////////////////////ATTRIBUTES//////////////////////////////////////
+  private String task;
+  private LinkedList<SubTask> subTasks = new LinkedList<SubTask>;
+  ///////////////////////////Constructor//////////////////////////////////////
+  public Task(String task){
+    this.task = task;
+  }
+  //public Task(){}
+  ///////////////////////////Methods//////////////////////////////////////
+  public void addSubTask(String details) {
+      subtasks.add(new SubTask(details));
+  }
+}
+
+public class SubTask extends Task{
+  ///////////////////////////ATTRIBUTES//////////////////////////////////////
+  private Note note;
+  ///////////////////////////Constructor//////////////////////////////////////
+  public SubTask(String details){
+    details = task;
+  }
+  ///////////////////////////Methods//////////////////////////////////////
+  /*
+  ** remove LinkedList ATTRIBUTES
+  **remove addSubTask()
+  */
+}
