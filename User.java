@@ -32,6 +32,15 @@ public class User {
     public void addToItemList(Item item) {
         items.add(item);
     }
+    public void addFriend(String email) {
+        items.add(email);
+    }
+    // public User searchFriends() {
+    //     for(int i=0; i < friends.size(); i++) {
+    //         if(email.equals(users.get(i).getEmail())) return users.get(i);
+    //     }
+    //     return null;
+    // }
 
 
 }
