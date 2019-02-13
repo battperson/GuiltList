@@ -1,10 +1,10 @@
 public class GuiltListSys{
   ///////////////////////////ATTRIBUTES//////////////////////////////////////
-  private LinkedList<User> users = new LinkedList<User>;
+  private static LinkedList<User> users = new LinkedList<User>;
 /*
 **finding a User's ref
 */
-public User searchUsers(String email) {
+public static User searchUsers(String email) {
     for(int i=0; i < users.size(); i++) {
         if(email.equals(users.get(i).getEmail())) return users.get(i);
     }

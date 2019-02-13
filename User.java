@@ -16,7 +16,7 @@ public class User {
       this.password = password;
     }
 
-    public USER(){}
+    //public USER(){}
     ///////////////////////////Methods//////////////////////////////////////
     public String getName() { return name; }
     public String getEmail() { return email; }
