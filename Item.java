@@ -6,6 +6,14 @@ public abstract class Item {
   *
   */
   ///////////////////////////Methods//////////////////////////////////////
+  public String getName (){
+    return itemName;
+
+}
+  public void setName (String itemName){
+    this.itemName= itemName;
+
+}
   public void shareWith (){
     /*
     *To be determined
