@@ -11,7 +11,7 @@ public class User {
     /*
     **stores list of Friends
     */
-    private LinkedList<User> friend = new LinkedList<User>();
+    private LinkedList<User> friends = new LinkedList<User>();
     /*
     **stores list of shared Items
     */
@@ -40,8 +40,8 @@ public class User {
     public void addSharedItem(Item item) {
         sharedItems.add(item);
     }
-    public void addFriend(String email) {
-        items.add(email);
+    public void addFriend(User user) {
+      friends.add(user);
     }
     // public User searchFriends() {
     //     for(int i=0; i < friends.size(); i++) {
