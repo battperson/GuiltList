@@ -38,6 +38,7 @@ public class Note extends Item {
   public Note(){}
   ///////////////////////////Methods//////////////////////////////////////
     public String getNote() { return note; }
+    public void setNote(String note) { this.note =note; }
 
 }
 
