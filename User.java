@@ -11,7 +11,7 @@ public class User {
     /*
     **stores list of Friends
     */
-    private LinkedList<String> friendEmail = new LinkedList<String>();
+    private LinkedList<User> friend = new LinkedList<User>();
     /*
     **stores list of shared Items
     */
@@ -30,7 +30,7 @@ public class User {
     public String getEmail() { return email; }
     public String getPassword() { return password; }
     public LinkedList<Item> getItems() { return items; }
-    public LinkedList<String> getFriends() { return friends; }
+    public LinkedList<User> getFriends() { return friends; }
     public LinkedList<String> getSharedItem() { return sharedItems; }
     //public LinkedList<Customer> getCustomers() { return customers; }
 
